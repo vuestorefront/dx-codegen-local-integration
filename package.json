@@ -1,5 +1,5 @@
 {
-  "name": "@repo/example-api",
+  "name": "@repo/dummy",
   "version": "0.1.0",
   "sideEffects": false,
   "server": "server/index.js",
