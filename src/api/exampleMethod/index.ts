@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import consola from "consola";
-import { ExampleIntegrationContext, TODO } from "../../types";
+import { DummyIntegrationContext, TODO } from "../../types";
 
 /**
  * Greets the integrator with a friendly message.
@@ -11,12 +11,12 @@ import { ExampleIntegrationContext, TODO } from "../../types";
  * @example
  * SDK usage:
  * ```ts
- * const result = await sdk.bolierplate.exampleMethod("test");
+ * const result = await sdk.dummy.exampleMethod("test");
  * console.log(result); // { data: "Hello, Alokai Integrator!" }
  * ```
  */
 export const exampleMethod = async (
-  context: ExampleIntegrationContext,
+  context: DummyIntegrationContext,
   params: TODO
 ) => {
   consola.log("exampleEndpoint has been called");

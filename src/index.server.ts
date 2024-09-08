@@ -15,8 +15,6 @@ const buildClient = () => {
 const onCreate = (settings: MiddlewareConfig) => {
   const client = buildClient();
 
-  console.log('Example Middleware apiEndpoints:', apiEndpoints)
-
   return {
     config: settings,
     client,
