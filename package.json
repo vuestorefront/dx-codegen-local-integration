@@ -26,7 +26,8 @@
   "devDependencies": {
     "@rollup/plugin-json": "^6.1.0",
     "@vue-storefront/rollup-config": "^1.0.0",
-    "@vue-storefront/jest-config": "^1.0.2"
+    "@vue-storefront/jest-config": "^1.0.2",
+    "rimraf": "3.0.2"
   },
   "files": [
     "lib/**/*",
